@@ -1,0 +1,33 @@
+emailIdp:
+  - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
+  - hasAccount:
+jwtRefresh:
+  - refreshAccessToken:
+category:
+  - getAllCategories:
+  - getCategoryById:
+  - createCategory:
+  - updateCategory:
+  - deleteCategory:
+product:
+  - getAllProducts:
+  - getProductById:
+  - createProduct:
+  - updateProduct:
+  - deleteProduct:
+subcategory:
+  - getAllSubcategories:
+  - getSubcategoryById:
+  - createSubcategory:
+  - updateSubcategory:
+  - deleteSubcategory:
+user:
+  - adminLogin:
+  - registerCustomer:
+  - getAllUsers:

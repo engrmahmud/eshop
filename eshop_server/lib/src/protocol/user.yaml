@@ -1,0 +1,9 @@
+class: User
+table: user
+fields:
+  name: String
+  email: String
+  password: String
+  phone: String
+  address: String
+  isAdmin: bool

@@ -1,0 +1,14 @@
+class: Product
+table: product
+fields:
+  name: String
+  description: String
+  price: double
+  discount: double
+  images: List<String>?
+  sizes: List<String>?
+  colors: List<String>?
+  subcategoryId: int?, relation(parent=subcategory)
+  categoryId: int, relation(parent=category)
+  quantity: int
+  isAvailable: bool

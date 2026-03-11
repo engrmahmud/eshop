@@ -1,0 +1,7 @@
+class: Subcategory
+table: subcategory
+fields:
+  name: String
+  description: String
+  imageUrl: String
+  categoryId: int, relation(parent=category)
